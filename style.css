@@ -1,0 +1,11 @@
+/* Custom CSS untuk Manpour */
+
+/* Menghilangkan highlight biru di browser seluler saat tombol diklik */
+button, a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Transisi halus untuk semua tombol */
+button {
+    transition: all 0.2s ease-in-out;
+}
